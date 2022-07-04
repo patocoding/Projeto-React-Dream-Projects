@@ -1,0 +1,11 @@
+.sobre_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre_container h4,h1{
+    margin-left: 1em;
+    font-family: 'Ubuntu', sans-serif;
+}
+

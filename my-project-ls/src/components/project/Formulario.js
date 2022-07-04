@@ -14,7 +14,7 @@ export default function Formulario({handleSubmit, btnText, projectData}) {
   const [project, setProject] = useState(projectData || {})
 
   useEffect(( ) => {
-    fetch('https://my-json-server.typicode.com/patocoding/patocoding-server/categories', {
+    fetch('https://62c273a8ff594c65675c96a9.mockapi.io/server-pato/categories', {
   method: "GET",
   headers: {
     'Content-type': 'application/json'
