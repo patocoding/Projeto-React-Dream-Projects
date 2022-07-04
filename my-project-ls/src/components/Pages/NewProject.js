@@ -12,7 +12,7 @@ export default function NewProject() {
 
     project.cost = 0
     project.services = []
-    fetch("http://localhost:5000/projetos",{
+    fetch("https://my-json-server.typicode.com/patocoding/patocoding-server/projetos",{
       method: "POST",
       headers:{
         "Content-type": 'application/json',

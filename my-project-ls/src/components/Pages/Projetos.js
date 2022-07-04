@@ -19,7 +19,7 @@ export default function Projetos() {
   }
 
   useEffect(()=>{
-    fetch('http://localhost:5000/projetos',{
+    fetch('https://my-json-server.typicode.com/patocoding/patocoding-server/projetos',{
     method:'GET',
     headers: {
       'Content-Type': 'application/json',
