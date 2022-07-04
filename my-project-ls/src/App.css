@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  *,
+  *:before,
+  *:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  html {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(238, 237, 237);
+
+    /* background: var(--color_background); */
+    background-position: bottom !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    opacity: 1;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      margin: 0;
+    }
+  
+
+  #root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+    .App {
+      width: 100%;
+      height: 100%;
+    }
+
+  @media (min-width: 700px) {
+    :root {
+      font-size: 62.5%;
+    }
+  }
